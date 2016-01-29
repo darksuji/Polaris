@@ -232,7 +232,7 @@
 		module_sprites = new_sprites.Copy()
 		//Custom_sprite check and entry
 		if (custom_sprite == 1)
-			module_sprites["Custom"] = "[src.ckey]-[modtype]"
+			module_sprites["Custom"] = "[src.ckey]-[modtype]-[real_name]"
 			icontype = "Custom"
 		else
 			icontype = module_sprites[1]

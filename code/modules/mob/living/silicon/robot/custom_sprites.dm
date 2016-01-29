@@ -27,4 +27,4 @@ var/list/robot_custom_icons
 		custom_sprite = 1
 		icon = CUSTOM_ITEM_SYNTH
 		if(icon_state == "robot")
-			icon_state = "[ckey]-Standard"
+			icon_state = "[ckey]-Standard-[real_name]"
